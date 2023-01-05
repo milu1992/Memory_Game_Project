@@ -1,0 +1,116 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+	
+	
+}
+
+body {
+	background-color: #108888;
+	background-image: url("img/fruitsklein.gif");
+	background-size: 50px 40px;
+	
+
+}
+
+#spielfeld {
+	box-sizing: content-box;
+	width: auto;
+	padding: 5em 1.6em;
+	background-color: #ffffff;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 50%;
+	border-radius: 1em;
+}
+
+.karte {
+	border-radius: 0.5em;
+	cursor: pointer;
+}
+
+button {
+	border: none;
+	border-radius: 0.3em;
+	padding: 1em 1.5em;
+	cursor: pointer;
+	font-size: 1.2em;
+	background-color: #ffffff;
+	color: #4C989F;
+
+}
+
+regeln {
+	border: none;
+	border-radius: 0.3em;
+	padding: 1em 1.5em;
+	background: rgba(255, 255, 255, .5);
+	float: left;
+	width: 200px;
+	height: 230px;
+	margin-top: 150px;
+	margin-left: 30px;
+	padding: 1em;
+	font-size: 0.9em;
+	color: #075057;
+}
+
+hallo {
+	border: none;
+	border-radius: 0.3em;
+	padding: 1em 1.5em;
+	background: rgba(255, 255, 255, .5);
+	float: left;
+	width: 200px;
+	height: 150x;
+	margin-top: 400px;
+	margin-left: 5
+	px;
+	padding: 1em;
+	font-size: 0.9em;
+	color: #075057;
+}
+
+
+#zuege {
+text-align: left;
+  margin-bottom: 1.2em;
+}
+
+#stop {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 92.5%;
+}
+
+#start {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 50%;
+}
+
+#nochmal {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 75%;
+}
+
+.hide {
+	display: none;
+}
+
+h2 {
+	color: #ffffff;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 50%;
+	font-size: 2.5em;
+	border-radius: 0.3em;
+}
